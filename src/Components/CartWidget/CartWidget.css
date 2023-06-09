@@ -1,0 +1,27 @@
+.cartWidgetContainer{
+    width: 200px;
+}
+
+.cartWidget{
+    width: 40px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.cartWidget span{
+    font-size: 40px;
+}
+
+.cartWidget strong{
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 15px;
+    transform: translate(15PX, -15px);
+}
