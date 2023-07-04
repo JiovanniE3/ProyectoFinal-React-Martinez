@@ -1,0 +1,37 @@
+.cardProducto {
+    position: relative;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.imgProducto {
+    width: 300px;
+}
+
+
+.btnProducto {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    transform: translateY(10px);
+    background-color: #555555;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnProducto:hover {
+    color: #555555;
+    background-color: rgb(255, 255, 255);
+}

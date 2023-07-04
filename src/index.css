@@ -4,12 +4,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  color: black;
 }
 
 body {
   font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(164, 164, 164);
+  background-color: #e0e0e0;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
