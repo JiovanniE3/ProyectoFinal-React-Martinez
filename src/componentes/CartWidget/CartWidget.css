@@ -9,8 +9,8 @@
     cursor: pointer;
 }
 
-.cartWidget span{
-    font-size: 40px;
+.cartWidget img{
+    width: 40px;
 }
 
 .cartWidget strong{
